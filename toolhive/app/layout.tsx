@@ -8,7 +8,7 @@ import { SITE_NAME, SITE_DESC } from "@/lib/tools";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://toolhive.example.com"),
+  metadataBase: new URL("https://gettoolhive.vercel.app"),
   title: {
     default: "ToolHive — Free Online Tools",
     template: `%s | ${SITE_NAME}`,

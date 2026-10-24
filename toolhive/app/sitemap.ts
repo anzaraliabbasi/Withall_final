@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { tools, categories } from "@/lib/tools";
 
-const BASE = "https://toolhive.example.com";
+const BASE = "https://gettoolhive.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
