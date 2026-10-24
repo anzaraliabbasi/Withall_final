@@ -41,8 +41,8 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: `https://toolhive.example.com/` },
-          { "@type": "ListItem", position: 2, name: category ? category.name : "Tools", item: `https://toolhive.example.com/${category ? category.url : ""}` },
+          { "@type": "ListItem", position: 1, name: "Home", item: `https://gettoolhive.vercel.app/` },
+          { "@type": "ListItem", position: 2, name: category ? category.name : "Tools", item: `https://gettoolhive.vercel.app/${category ? category.url : ""}` },
           { "@type": "ListItem", position: 3, name: tool.name },
         ],
       },
@@ -53,7 +53,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
         operatingSystem: "Any",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
         description: tool.shortDesc,
-        url: `https://toolhive.example.com/tools/${tool.slug}`,
+        url: `https://gettoolhive.vercel.app/tools/${tool.slug}`,
       },
       {
         "@type": "FAQPage",
