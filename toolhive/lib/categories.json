@@ -1,0 +1,65 @@
+[
+  {
+    "id": "text",
+    "name": "Text Tools",
+    "url": "text-tools",
+    "desc": "Convert, count, clean and beautify text — handwriting, case, spacing and more.",
+    "icon": "✎"
+  },
+  {
+    "id": "image",
+    "name": "Image Tools",
+    "url": "image-tools",
+    "desc": "Crop, resize and filter images right in your browser. Nothing is uploaded.",
+    "icon": "🖼"
+  },
+  {
+    "id": "pdf",
+    "name": "PDF Tools",
+    "url": "pdf-tools",
+    "desc": "Merge, split, compress, edit and sign PDF files without uploading them anywhere.",
+    "icon": "📄"
+  },
+  {
+    "id": "social",
+    "name": "Social Media Tools",
+    "url": "social-media-tools",
+    "desc": "Design realistic social media mockups and download them as images.",
+    "icon": "💬"
+  },
+  {
+    "id": "security",
+    "name": "Security Tools",
+    "url": "security-tools",
+    "desc": "Generate strong passwords and compute MD5/SHA hashes instantly, locally.",
+    "icon": "🔐"
+  },
+  {
+    "id": "coding",
+    "name": "Coding Tools",
+    "url": "coding-tools",
+    "desc": "Format, minify, encode and inspect code and data formats.",
+    "icon": "⌨"
+  },
+  {
+    "id": "css",
+    "name": "CSS Tools",
+    "url": "css-tools",
+    "desc": "Visual generators for gradients, shadows, clip paths, loaders and more.",
+    "icon": "🎨"
+  },
+  {
+    "id": "color",
+    "name": "Color Tools",
+    "url": "color-tools",
+    "desc": "Mix, shade, convert and generate beautiful color palettes.",
+    "icon": "🌈"
+  },
+  {
+    "id": "misc",
+    "name": "Miscellaneous Tools",
+    "url": "miscellaneous-tools",
+    "desc": "QR codes, barcodes, randomizers and other handy utilities.",
+    "icon": "✨"
+  }
+]

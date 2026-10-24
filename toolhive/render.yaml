@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: toolhive
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: node scripts/migrate-standalone.mjs && npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: POSTGRES_DRIVER
+        value: "1"
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: NEXT_PUBLIC_GSC_TOKEN
+        sync: false

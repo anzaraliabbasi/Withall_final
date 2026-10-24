@@ -1,0 +1,7 @@
+node_modules
+.next
+data
+.git
+*.zip
+.env.local
+README.md
